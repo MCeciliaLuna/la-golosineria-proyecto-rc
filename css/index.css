@@ -1,0 +1,283 @@
+@font-face {
+   font-family: "la_golosineria";
+   src: url(../assert/font/HelveticaRoundedLTStdBdO.otf);
+   color: whitesmoke;
+}
+
+@media (min-width: 414px) {
+   .carousel-css{
+     height:150px;
+   }
+   .bienvenidos{
+      font-size: 15px;
+   }
+}
+ 
+@media (min-width: 768px) {
+   .carousel-css{
+      height: 270px;
+   }
+}
+
+@media (min-width: 992px) {
+   .carousel-css{
+      height: 350px;
+   }
+
+   .card-nosotros{
+      padding: 0;
+   }
+   
+}
+
+
+@media (max-width: 414px){
+   .section-contactate{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .form-size{
+      margin: 25px;
+   }
+   
+   .gps-size{
+      margin: 25px;
+   }
+   
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   color : whitesmoke;
+   background-color: #EB1291; 
+   font-family: "la_golosineria";
+   margin: 0;
+   padding: 0;
+   
+}
+
+.row {
+   --bs-gutter-x: 0;
+   --bs-gutter-y: 0;
+}
+
+.image-marca{
+   object-fit: contain;
+}
+
+
+.image-carousel{
+   object-fit: contain;
+   width: 100%;
+}
+
+#navbar{
+   background-color: #6E1078; 
+   
+}
+
+.logo{
+   height: 100px;   
+}
+
+.logo-letras{
+   height: 50px;   
+}
+
+.separador{
+   height: 10px;
+  
+}
+.separador-amarrillo{
+   background-color:  #F5E616;
+   color: #6E1078;
+}
+
+.separador-rosa{
+   background-color: #EB1291;
+}
+
+.separador-celeste{
+   background-color: #5ECBEA;
+   color: #EB1291;
+}
+
+.separador-morado{
+   background-color: #6E1078;
+   color: #F5E616;
+}
+
+
+
+#Bienvenidos{
+   background-color: #EB1291; 
+   color: whitesmoke;
+}
+
+.h3{
+   color: whitesmoke;
+}
+.text-alert{
+   color: darkslategray;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+   color: #F5E616;
+}
+
+
+.card{
+   color: darkslategray;
+}
+
+.marcastitle{
+   color: whitesmoke;
+}
+
+.proveedores{   
+   color : #EB1291;
+   background-color: #5ECBEA;    
+}
+
+.card-title{
+   color : #EB1291;
+}
+
+.text-center{
+   color : whitesmoke;
+}
+
+.altura-titulo{
+   height: 300px;   
+}
+
+.accordion-body{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+
+.card-img-top{
+   display: flex;
+   height: 300px;
+   width: 280px;
+   display: flex;
+   align-items: center;
+}
+
+.card-img-top-marca{
+   object-fit: contain;
+   height: 300px;
+   width: 100%;
+   align-items: center;
+}
+
+
+.form-size{
+   width: 25vh;   
+}
+
+.gps-size{
+   width: 25vh;
+} 
+
+.section-contactate{
+   
+   background-color: #6E1078;
+   color: #F5E616;
+}
+
+
+.form-size{
+   width: 300px;
+}
+
+.gps-size{
+   width: 300px;
+}
+
+.bottom-padding{
+   padding-top: 10px;
+}
+
+
+.logo-insta{
+   width: 40px;
+   height: 40px;
+   margin: 2px;
+}
+
+.logo-face{
+   width: 40px;
+   height: 40px;
+   margin: 2px;
+}
+
+
+.nav-link{
+   color: #F5E616;
+}
+
+.text-productos{
+   color: darkslategray;
+}
+
+.redes-sociales{
+   margin: 0;
+   padding: 0;
+   background-color:#EB1291;
+   border-radius: 5%;
+   
+}
+
+.imagen-nosotros{
+   border-radius: 100%;
+   height: 300px;
+   width: 100%;
+   align-items: center;
+}
+
+.link-redes{
+   color: whitesmoke;
+}
+
+.linknone{
+   list-style: none;
+}
+
+.linknone a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.equipo{
+   background-color: transparent;
+   padding: 20px;
+   text-align: center;
+}
+
+.equipo a{
+   position: relative;
+   display: block;
+}
+
+.equipo img{
+   height: 300px;
+   width: 280px;
+   border-radius: 50%;
+   box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+}
+
+.tpad{
+   padding-top: 10px;
+}
+
+.row{
+   --bs-gutter-x: 0;
+}

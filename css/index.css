@@ -4,24 +4,25 @@
    color: whitesmoke;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 375px) {
    .carousel-css{
-     height:150px;
+     height:220px;
    }
    .bienvenidos{
       font-size: 15px;
    }
+
 }
  
 @media (min-width: 768px) {
    .carousel-css{
-      height: 270px;
+      height: 400px;
    }
 }
 
 @media (min-width: 992px) {
    .carousel-css{
-      height: 350px;
+      height: 400px;
    }
 
    .card-nosotros{
@@ -280,4 +281,16 @@ body{
 
 .row{
    --bs-gutter-x: 0;
+}
+
+.titleerror{
+   font-size: 50px;
+}
+
+.linkpageprincipal{
+   text-decoration: none;
+}
+
+.icono-error{
+   height: 100px;
 }

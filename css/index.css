@@ -281,3 +281,11 @@ body{
 .row{
    --bs-gutter-x: 0;
 }
+
+.titleerror{
+   font-size: 50px;
+}
+
+.linkpageprincipal{
+   text-decoration: none;
+}
